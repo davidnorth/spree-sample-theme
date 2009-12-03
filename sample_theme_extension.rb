@@ -18,5 +18,8 @@ class SampleThemeExtension < Spree::Extension
     # Spree::BaseController.class_eval do
     #   helper YourHelper
     # end
+
+    Spree::Config.set :logo => "/images/railsdog_logo.png"
+
   end
 end
